@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.reprovado-box{
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    height: 420px;
+    left: 35%;
+    top: 20%;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #F0F0F0;
+}
+
+
+.title-reprovado{
+        position: relative;
+        top: 20%;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Roboto Mono', monospace;
+}
+
+.x1{
+    position: absolute;
+    color: red;
+    font-size: 80px;
+    bottom: 15%;
+    left: 80px;
+    font-family: 'Roboto', monospace;
+}
+
+.x2{
+
+    position: absolute;
+    color: red;
+    font-size: 80px;
+    bottom: 15%;
+    right: 90px;
+    font-family: 'Roboto', monospace;
+}

@@ -1,5 +1,8 @@
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import CalculatorComponent from './components/calculatorComponent/CalculatorComponent';
+import SucessoComponent from './components/SucessoComponent/SucessoComponent';
+import ReprovadoComponent from './components/ReprovadoComponent/ReprovadoComponent';
 
 function App() {
   return (
@@ -7,7 +10,21 @@ function App() {
       <header>
         <h1>Bem-Vindo ao Calculador de Média</h1>
       </header>
-      <CalculatorComponent/>
+
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <CalculatorComponent/>
+          </Route>
+          <Route exact path="/aprovado">
+            <SucessoComponent/>
+          </Route>
+          <Route path="/reprovado">
+            <ReprovadoComponent/>
+          </Route>
+        </Switch>
+      </Router>
+    
     </div>
   );
 }
