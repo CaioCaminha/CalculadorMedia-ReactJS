@@ -16,9 +16,11 @@ export default function CalculatorComponent(){
 
     let _handleValidator = (notaFinal, mediaNecessaria) => {
          if(notaFinal >= mediaNecessaria){
+            alert(`Parabéns, aprovado com média ${Math.round(notaFinal * 100) / 100}`);
             return history.push('/aprovado')
          }else{
-             return alert(`Reprovado infelizmente com média ${Math.round(notaFinal * 100) / 100}`);
+            alert(`Reprovado infelizmente com média ${Math.round(notaFinal * 100) / 100}`);
+             return history.push('/reprovado');
          }
     }
 
