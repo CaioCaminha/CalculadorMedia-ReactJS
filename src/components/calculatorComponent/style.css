@@ -116,38 +116,7 @@ form button{
 
   }
 
-  footer{
-    display: inline-block;
-    position: absolute;
-    bottom: 3%;
-    width: 290px;
-    height: 40px;
-    left: 40%;
-}
-
-.footer-copyright{
-    position: absolute;
-    left: 0px;
-    top: 5%;
-}
-.footer-linkedin{
-    position: absolute;
-    right: 15%;
-    top: 5%;
-}
-.footer-github{
-    position: absolute;
-    right: 1%;
-    top: 5%;
-}
-
-footer p{
-    display: inline;
-    top: 25%;
-    left: 13%;
-    position: relative;
-    
-}
+  
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
     .calculator{
@@ -168,12 +137,6 @@ footer p{
 
     form input{
         left: 10%;
-    }
-
-    footer{
-        margin-top: 3px;
-        left:10%;
-        bottom: 0;
     }
 
     .signup-button{

@@ -1,7 +1,4 @@
 import React from "react"
-import {ReactComponent as GithubSvg} from "../../svgs/githubSvg.svg"
-import {ReactComponent as CopyrightSvg} from "../../svgs/copyrightSvg.svg"
-import {ReactComponent as LinkedinSvg} from "../../svgs/linkedinSvg.svg"
 import "./style.css"
 import { useHistory } from "react-router-dom"
 
@@ -51,12 +48,6 @@ export default function CalculatorComponent(){
                     <section className="section-signup-button"><button className="signup-button" type="submit"><p>CALCULAR</p></button></section>
                 </form>
             </div>
-            <footer>
-                    <CopyrightSvg className="footer-copyright"/>
-                    <a href="https://github.com/CaioCaminha"><GithubSvg className="footer-github"/></a>
-                    <a href="https://www.linkedin.com/in/caio-caminha-53b2a6205/"><LinkedinSvg className="footer-linkedin"/></a>
-                    <p>By Caio Freitas Caminha</p>
-            </footer>
         </div>
     );
 }
