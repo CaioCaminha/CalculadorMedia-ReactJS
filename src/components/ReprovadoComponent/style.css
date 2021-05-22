@@ -40,3 +40,10 @@
     right: 90px;
     font-family: 'Roboto', monospace;
 }
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .reprovado-box{
+        width: 100%;
+        left: 0;
+    }
+}

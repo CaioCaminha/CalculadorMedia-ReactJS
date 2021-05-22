@@ -7,8 +7,8 @@ import ReprovadoComponent from './components/ReprovadoComponent/ReprovadoCompone
 function App() {
   return (
     <div className="div">
-      <header>
-        <h1>Bem-Vindo ao Calculador de Média</h1>
+      <header className="header-app">
+        <h1>Bem-Vindo ao calculador de média</h1>
       </header>
 
       <Router>

@@ -35,3 +35,10 @@
     bottom: 15%;
     right: 25px;
 }
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .aprovado-box{
+        width: 100%;
+        left: 0;
+    }
+}
