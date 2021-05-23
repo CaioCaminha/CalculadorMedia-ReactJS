@@ -1,9 +1,6 @@
 import React from "react";
 import "./style.css"
 
-import {ReactComponent as GithubSvg} from "../../svgs/githubSvg.svg"
-import {ReactComponent as CopyrightSvg} from "../../svgs/copyrightSvg.svg"
-import {ReactComponent as LinkedinSvg} from "../../svgs/linkedinSvg.svg"
 import {ReactComponent as Festa1Svg} from "../../svgs/festa1.svg"
 import {ReactComponent as Festa2Svg} from "../../svgs/festa2.svg"
 
