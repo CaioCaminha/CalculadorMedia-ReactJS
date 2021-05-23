@@ -46,4 +46,8 @@
         width: 100%;
         left: 0;
     }
+
+    .reprovado-component{
+        height: 420px;
+    }
 }

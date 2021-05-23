@@ -34,8 +34,13 @@
 }
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
+
     .aprovado-box{
         width: 100%;
         left: 0;
+    }
+
+    .aprovado-component{
+        height: 420px;
     }
 }
