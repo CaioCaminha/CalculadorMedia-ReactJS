@@ -19,12 +19,6 @@ export default function SucessoComponent(props){
                 <Festa1Svg className="festa1-svg"/>
                 <Festa2Svg className="festa2-svg"/>
             </div>
-            <footer>
-                    <CopyrightSvg className="footer-copyright"/>
-                    <a href="https://github.com/CaioCaminha"><GithubSvg className="footer-github"/></a>
-                    <a href="https://www.linkedin.com/in/caio-caminha-53b2a6205/"><LinkedinSvg className="footer-linkedin"/></a>
-                    <p>By Caio Freitas Caminha</p>
-            </footer>
         </div>
     );
 }
